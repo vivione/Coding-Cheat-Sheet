@@ -22,4 +22,6 @@ int main() {
     printf("Item1: $%.2f\n", item1);
     printf("Item2: $%.2f\n", item2);
     printf("Item3: $%.2f\n", item3);
+
+    return 0;
 }

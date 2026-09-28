@@ -5,6 +5,8 @@ int main() {
     // switch statements are a most efficient way to using many "else if"
     // statements and allow a value to be tested for equality against many cases
 
+    int count = 0;
+
     char grade;
 
     do {
@@ -31,8 +33,12 @@ int main() {
             printf("This is not a valide grade!\n");
             break;
         }
+
+        count++;
     } while (grade != 'A' && grade != 'B' && grade != 'C' && grade != 'D' &&
-             grade != 'F');
+             grade != 'F' && count < 10);
+
+    printf("Exceeded the number of executions\n");
 
     return 0;
 }

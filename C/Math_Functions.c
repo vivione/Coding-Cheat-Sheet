@@ -18,7 +18,7 @@ int main() {
     short e = floor(3.99); // floor = always rounding down
     printf("%d\n", e);
 
-    unsigned short f = fabs(-100); // absolute value
+    unsigned short f = fabs(-100); // floating point absolute value
     printf("%d\n", f);
 
     double g = log(3);

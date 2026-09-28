@@ -14,7 +14,7 @@ run:
 		exit 1; \
 	fi
 	$(CC) $(CFLAGS) $(FILE) -o $(NAME)
-	@echo "--- Exécution ---"
+	@echo "--- Execution ---"
 	@./$(NAME)
 	@$(MAKE) clean NAME=$(NAME)
 
